@@ -1,0 +1,11 @@
+img{
+    margin:"10px";
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+#first{
+    background-color: red;
+}
