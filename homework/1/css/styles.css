@@ -1,0 +1,78 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+header, main, nav, footer{
+    text-align: center;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    border-bottom: 2px green solid;
+    font-size: 2em;
+    transition: .9s;
+    
+}
+
+#home, #introduction, #quantum, #quantumComputing {
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+footer{
+    clear: left;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+#a{
+    quotes: "'" "'";
+}
+
+#b{
+    quotes: "'" "'";
+}
+
+#c{
+    quotes: "'" "'";
+}
+
+#d{
+    quotes: "'" "'";
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
