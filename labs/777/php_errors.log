@@ -1,0 +1,44 @@
+[19-Sep-2018 21:51:29 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/w/labs/777/777/index.php on line 16
+[19-Sep-2018 21:51:29 UTC] PHP Stack trace:
+[19-Sep-2018 21:51:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:52:11 UTC] PHP Warning:  include(/777/inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/w/labs/777/777/index.php on line 7
+[19-Sep-2018 21:52:11 UTC] PHP Stack trace:
+[19-Sep-2018 21:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:52:11 UTC] PHP Warning:  include(): Failed opening '/777/inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/w/labs/777/777/index.php on line 7
+[19-Sep-2018 21:52:11 UTC] PHP Stack trace:
+[19-Sep-2018 21:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:52:11 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/w/labs/777/777/index.php on line 16
+[19-Sep-2018 21:52:11 UTC] PHP Stack trace:
+[19-Sep-2018 21:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:52:49 UTC] PHP Warning:  include(/777/inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/w/labs/777/777/index.php on line 3
+[19-Sep-2018 21:52:49 UTC] PHP Stack trace:
+[19-Sep-2018 21:52:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:52:49 UTC] PHP Warning:  include(): Failed opening '/777/inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/w/labs/777/777/index.php on line 3
+[19-Sep-2018 21:52:49 UTC] PHP Stack trace:
+[19-Sep-2018 21:52:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:52:49 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/w/labs/777/777/index.php on line 17
+[19-Sep-2018 21:52:49 UTC] PHP Stack trace:
+[19-Sep-2018 21:52:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:53:09 UTC] PHP Warning:  include(/777/inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/w/labs/777/777/index.php on line 3
+[19-Sep-2018 21:53:09 UTC] PHP Stack trace:
+[19-Sep-2018 21:53:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:53:09 UTC] PHP Warning:  include(): Failed opening '/777/inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/w/labs/777/777/index.php on line 3
+[19-Sep-2018 21:53:09 UTC] PHP Stack trace:
+[19-Sep-2018 21:53:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:53:09 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/w/labs/777/777/index.php on line 17
+[19-Sep-2018 21:53:09 UTC] PHP Stack trace:
+[19-Sep-2018 21:53:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:53:50 UTC] PHP Warning:  include(/inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/w/labs/777/777/index.php on line 3
+[19-Sep-2018 21:53:50 UTC] PHP Stack trace:
+[19-Sep-2018 21:53:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:53:50 UTC] PHP Warning:  include(): Failed opening '/inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/w/labs/777/777/index.php on line 3
+[19-Sep-2018 21:53:50 UTC] PHP Stack trace:
+[19-Sep-2018 21:53:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 21:53:50 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/w/labs/777/777/index.php on line 17
+[19-Sep-2018 21:53:50 UTC] PHP Stack trace:
+[19-Sep-2018 21:53:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 22:29:04 UTC] PHP Warning:  Missing argument 4 for displayPoints(), called in /home/ubuntu/workspace/w/labs/777/777/inc/functions.php on line 56 and defined in /home/ubuntu/workspace/w/labs/777/777/inc/functions.php on line 28
+[19-Sep-2018 22:29:04 UTC] PHP Stack trace:
+[19-Sep-2018 22:29:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/777/777/index.php:0
+[19-Sep-2018 22:29:04 UTC] PHP   2. play() /home/ubuntu/workspace/w/labs/777/777/index.php:33
+[19-Sep-2018 22:29:04 UTC] PHP   3. displayPoints() /home/ubuntu/workspace/w/labs/777/777/inc/functions.php:56
