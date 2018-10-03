@@ -1,0 +1,12 @@
+[28-Sep-2018 06:00:54 UTC] PHP Fatal error:  Call to undefined function printGameState() in /home/ubuntu/workspace/w/homework/2/index.php on line 15
+[28-Sep-2018 06:00:54 UTC] PHP Stack trace:
+[28-Sep-2018 06:00:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/homework/2/index.php:0
+[29-Sep-2018 05:13:26 UTC] PHP Fatal error:  Call to undefined function display() in /home/ubuntu/workspace/w/homework/2/inc/functions.php on line 34
+[29-Sep-2018 05:13:26 UTC] PHP Stack trace:
+[29-Sep-2018 05:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/homework/2/index.php:0
+[29-Sep-2018 05:13:26 UTC] PHP   2. include() /home/ubuntu/workspace/w/homework/2/index.php:3
+[29-Sep-2018 05:13:26 UTC] PHP   3. printGameState() /home/ubuntu/workspace/w/homework/2/inc/functions.php:153
+[30-Sep-2018 06:11:29 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/w/homework/2/inc/functions.php on line 50
+[30-Sep-2018 06:11:29 UTC] PHP Stack trace:
+[30-Sep-2018 06:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/homework/2/index.php:0
+[30-Sep-2018 06:11:29 UTC] PHP   2. play() /home/ubuntu/workspace/w/homework/2/index.php:25
