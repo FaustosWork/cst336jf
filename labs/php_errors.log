@@ -1,0 +1,8 @@
+[10-Oct-2018 18:21:22 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/w/labs/scart/functions.php on line 14
+[10-Oct-2018 18:21:22 UTC] PHP Stack trace:
+[10-Oct-2018 18:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/scart/scart.php:0
+[10-Oct-2018 18:21:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/w/labs/scart/scart.php:58
+[10-Oct-2018 18:21:22 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/w/labs/scart/functions.php on line 14
+[10-Oct-2018 18:21:22 UTC] PHP Stack trace:
+[10-Oct-2018 18:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/scart/scart.php:0
+[10-Oct-2018 18:21:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/w/labs/scart/scart.php:58
