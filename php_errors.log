@@ -1,0 +1,124 @@
+[24-Oct-2018 20:21:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(50): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(190): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:22:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(50): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(188): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:23:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(50): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(188): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:23:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(50): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(167): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:25:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(148): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:28:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(126): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:30:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(126): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:30:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(126): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:33:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:33:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:33:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:33:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:33:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:38:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:40:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 'YES')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:41:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', '')
+#1 /home/ubuntu/workspace/w/cst336_midterm/create.php(31): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/cst336_midterm/create.php(114): displayQuote()
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 20:58:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', '')
+#1 /home/ubuntu/workspace/w/cst336_midterm/cst336_midterm.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7
+[24-Oct-2018 21:01:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/cst336_midterm/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/cst336_midterm/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', '')
+#1 /home/ubuntu/workspace/w/cst336_midterm/cst336_midterm.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/cst336_midterm/database.php on line 7

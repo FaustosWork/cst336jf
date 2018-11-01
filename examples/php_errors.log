@@ -1,3 +1,60 @@
 [03-Oct-2018 19:53:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/w/examples/10_3/sessions.php on line 23
 [03-Oct-2018 19:53:09 UTC] PHP Stack trace:
 [03-Oct-2018 19:53:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/examples/10_3/sessions.php:0
+[12-Oct-2018 19:20:21 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/w/examples/10_12/meme.php on line 70
+[23-Oct-2018 22:57:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/examples/meme_lab/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(24): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('Sup', 'Guey', 'thinking-ape')
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/database.php on line 7
+[30-Oct-2018 23:08:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: YES)' in /home/ubuntu/workspace/w/examples/meme_lab/database.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/database.php(7): PDO->__construct('mysql:host=loca...', 'jfausto', 's3cr3t')
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(24): getDatabaseConnection()
+#2 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('Sup', 'Dude', 'college-grad')
+#3 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/database.php on line 7
+[30-Oct-2018 23:08:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'' in /home/ubuntu/workspace/w/examples/meme_lab/meme.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('Sup', 'Guey', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/meme.php on line 29
+[30-Oct-2018 23:09:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'' in /home/ubuntu/workspace/w/examples/meme_lab/meme.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('Sup', 'Guey', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/meme.php on line 29
+[30-Oct-2018 23:24:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'' in /home/ubuntu/workspace/w/examples/meme_lab/meme.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('Sup', 'Dude', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/meme.php on line 29
+[31-Oct-2018 22:34:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'' in /home/ubuntu/workspace/w/examples/meme_lab/meme.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('jo', 'ko', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/meme.php on line 29
+[01-Nov-2018 02:06:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'' in /home/ubuntu/workspace/w/examples/meme_lab/meme.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('Sup', 'Guey', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/meme.php on line 29
+[01-Nov-2018 02:11:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'order clause'' in /home/ubuntu/workspace/w/examples/meme_lab/meme.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(85): PDOStatement->execute()
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(182): displayMemes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/meme.php on line 85
+[01-Nov-2018 02:18:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 're an art major', 'college-grad', 'https://upload.wikimedia.org/wikipedia/common' at line 1' in /home/ubuntu/workspace/w/examples/meme_lab/meme.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/w/examples/meme_lab/meme.php(99): createMeme('When you get a ...', 'But you're an a...', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/w/examples/meme_lab/meme.php on line 29
