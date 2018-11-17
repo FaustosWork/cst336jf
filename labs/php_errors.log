@@ -6,3 +6,31 @@
 [10-Oct-2018 18:21:22 UTC] PHP Stack trace:
 [10-Oct-2018 18:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/scart/scart.php:0
 [10-Oct-2018 18:21:22 UTC] PHP   2. displayCart() /home/ubuntu/workspace/w/labs/scart/scart.php:58
+[12-Nov-2018 03:14:54 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
+[12-Nov-2018 03:14:54 UTC] PHP Stack trace:
+[12-Nov-2018 03:14:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:0
+[12-Nov-2018 03:20:20 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
+[12-Nov-2018 03:20:20 UTC] PHP Stack trace:
+[12-Nov-2018 03:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:0
+[12-Nov-2018 03:29:37 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
+[12-Nov-2018 03:29:37 UTC] PHP Stack trace:
+[12-Nov-2018 03:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:0
+[12-Nov-2018 03:29:37 UTC] PHP   2. include() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:6
+[12-Nov-2018 03:30:00 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
+[12-Nov-2018 03:30:00 UTC] PHP Stack trace:
+[12-Nov-2018 03:30:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:0
+[12-Nov-2018 03:30:00 UTC] PHP   2. include() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:6
+[12-Nov-2018 03:47:56 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
+[12-Nov-2018 03:47:56 UTC] PHP Stack trace:
+[12-Nov-2018 03:47:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:0
+[12-Nov-2018 03:47:56 UTC] PHP   2. include() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:6
+[12-Nov-2018 03:48:16 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
+[12-Nov-2018 03:48:16 UTC] PHP Stack trace:
+[12-Nov-2018 03:48:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:0
+[12-Nov-2018 03:48:16 UTC] PHP   2. include() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:6
+[12-Nov-2018 04:07:55 UTC] PHP Fatal error:  Call to undefined function checkLoggedIn() in /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php on line 8
+[12-Nov-2018 04:07:55 UTC] PHP Stack trace:
+[12-Nov-2018 04:07:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/index.php:0
+[12-Nov-2018 07:28:30 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
+[12-Nov-2018 07:28:30 UTC] PHP Stack trace:
+[12-Nov-2018 07:28:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/memes.php:0

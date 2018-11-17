@@ -53,9 +53,9 @@ function displayMemes() {
     
     $sql = "SELECT * from all_memes WHERE 1";  
     
-    echo "POST: "; 
-    print_r($_POST);
-    echo "<br/>"; 
+    //echo "POST: "; 
+    //print_r($_POST);
+    //echo "<br/>"; 
     
     if(isset($_POST['search']) && !empty($_POST['search'])) {
       // query the databse for any records that match this search
