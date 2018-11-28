@@ -212,8 +212,14 @@
 			}
 			
 			function removeLife(){
-				numLives--;
-				lifebar.removeChild(lifebar.lastChild);
+				if(numLives>0){
+					numLives--;
+					lifebar.removeChild(lifebar.lastChild);
+				}
+				else{
+					gameWindow.innerHTML = '<br><br>You lose!';
+					gameWindow.className = 'msgGameOver';
+				}
 			}
 			
 			function nextLevel(){
