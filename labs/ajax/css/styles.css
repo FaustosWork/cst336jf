@@ -1,0 +1,16 @@
+.confirmed{
+    color: white;
+}
+.error{
+    color: red;
+}
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color : white;
+    background-color: black;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
