@@ -37,7 +37,7 @@ function zipcodeChange() {
                 var realData = JSON.parse(data);
                 
                 for (var i=0; i < (Object.keys(realData).length / 2); i++ ) {
-                    $('#zipcodeResult').append(realData[i] + "<br>");
+                    $('#zipCodeResult').append(realData[i] + "<br>");
                 }
                  
                 if(Object.keys(realData).length == 0){

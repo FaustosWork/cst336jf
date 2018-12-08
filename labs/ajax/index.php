@@ -89,7 +89,7 @@
 
         </form>
 
-        <div id="zipcodeResult"></div> Results
+        <div id="zipCodeResult"></div> Results
 
         <script src="functions.js"></script>
 
