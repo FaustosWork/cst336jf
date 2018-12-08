@@ -79,7 +79,9 @@
 	        <option value="WI">Wisconsin</option>
         	<option value="WY">Wyoming</option>
             
-            </select>	<br><br>	
+            </select>
+            
+            <br><br>	
             
             Counties: <select id="counties">
                 <option value="default"></option>
