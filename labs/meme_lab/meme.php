@@ -53,9 +53,8 @@ function displayMemes() {
     
     $sql = "SELECT * from all_memes WHERE 1";  
     
-    //echo "POST: "; 
-    //print_r($_POST);
-    //echo "<br/>"; 
+    
+    echo "<br/>"; 
     
     if(isset($_POST['search']) && !empty($_POST['search'])) {
       // query the databse for any records that match this search
@@ -69,17 +68,6 @@ function displayMemes() {
       $sql .= " AND meme_type = '{$_POST['meme-type']}'"; 
     }
     
-    if(isset($_POST['order-by-date'])) {
-      $sql .= " ORDER BY create_date"; 
-      
-      if ($_POST['order-by-date'] == 'newest-first') {
-        $sql .= " DESC"; 
-      }
-    }
-
-    
-    echo "sql: $sql <br/>"; 
-
     $statement = $dbConn->prepare($sql); 
     
     $statement->execute(); 
@@ -94,12 +82,9 @@ function displayMemes() {
     }
 } 
 
-
 if (isset($_POST['line1']) && isset($_POST['line2'])) {
   $memeObj = createMeme($_POST['line1'], $_POST['line2'], $_POST['meme-type']); 
 }
-
-
 
 ?>
 
