@@ -34,3 +34,9 @@
 [12-Nov-2018 07:28:30 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php:3) in /home/ubuntu/workspace/w/labs/meme_lab_part2/database.php on line 3
 [12-Nov-2018 07:28:30 UTC] PHP Stack trace:
 [12-Nov-2018 07:28:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/meme_lab_part2/memes.php:0
+[14-Dec-2018 22:39:00 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/w/labs/pets/index.php on line 11
+[14-Dec-2018 22:39:00 UTC] PHP Stack trace:
+[14-Dec-2018 22:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/pets/index.php:0
+[14-Dec-2018 22:39:00 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/w/labs/pets/index.php on line 11
+[14-Dec-2018 22:39:00 UTC] PHP Stack trace:
+[14-Dec-2018 22:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/w/labs/pets/index.php:0

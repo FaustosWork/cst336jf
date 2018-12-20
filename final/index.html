@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <link rel="stylesheet" type="text/css" href="race.css">
+</head>
+
+<body>
+    <!--Search bar-->
+    <div>
+
+    </div>
+
+    <!--Pages-->
+    <div id="pages">
+        <table>
+            <thead>
+                <th>Edit</th>
+                <th>Race</th>
+                <th>
+                    <button class="add action">
+                        <img src="img/salon-add.png" />
+                    </button>
+                </th>
+            </thead>
+            <tbody>
+                <!--Put all the pages data here-->
+            </tbody>
+        </table>
+
+    </div>
+
+    <!--Modal-->
+    <div id="modalBox" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            
+            <div>
+                <label for="code">Race ID</label>
+                <input id="code" type="text" />
+            </div>
+            
+            <div>
+                <label for="raceDate">Race Date</label>
+                <input id="raceDate" type="date" />
+                <label for="startTime">Start Time</label>
+                <input id="startTime" type="time" />
+            </div>
+            
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="text" />
+            </div>
+            <div>
+                <span>Location</label>
+                <textarea id="description" rows="5"></textarea>
+            </div>
+
+            <div>
+                <button class="cancel">Cancel</button>
+                <button class="save">Save</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="race.js"></script>
+
+</body>
+
+</html>

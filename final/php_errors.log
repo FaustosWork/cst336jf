@@ -1,0 +1,40 @@
+[19-Dec-2018 21:41:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(28): PDO->__construct('mysql:host=0.0....', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 28
+[19-Dec-2018 21:41:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(75): PDO->__construct('mysql:host=0.0....', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 75
+[19-Dec-2018 21:42:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(28): PDO->__construct('mysql:host=0.0....', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 28
+[19-Dec-2018 23:00:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(28): PDO->__construct('mysql:host=;por...', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 28
+[19-Dec-2018 23:03:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(75): PDO->__construct('mysql:host=0.0....', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 75
+[20-Dec-2018 00:49:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(28): PDO->__construct('mysql:host=;por...', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 28
+[20-Dec-2018 01:00:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(28): PDO->__construct('mysql:host=;por...', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 28
+[20-Dec-2018 01:14:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jfausto'@'localhost' (using password: NO)' in /home/ubuntu/workspace/w/final/practice/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/w/final/practice/index.php(28): PDO->__construct('mysql:host=;por...', 'jfausto', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/w/final/practice/index.php on line 28
